@@ -1,95 +1,95 @@
 
-public class ¸Þ¼Òµå»ç¿ë1 {
+public class ë©”ì†Œë“œì‚¬ìš©1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/*
-System.out.printf("\nÁÙ¹Ù²Þ\n¿¬½À \n");
-System.out.printf("\tÅÇÅ°\n¿¬½À \n");
-System.out.printf("ÀÌ°ÍÀ» \r µ¤¾î¾¹´Ï´Ù \n");
+
+	System.out.printf("\nì¤„ë°”ê¿ˆ\nì—°ìŠµ \n");
+	System.out.printf("\tíƒ­í‚¤\nì—°ìŠµ \n");
+	System.out.printf("ì´ê²ƒì„ \r ë®ì–´ì”ë‹ˆë‹¤ \n");
 
 
-System.out.printf("%d\n",123);
-System.out.printf("%5d\n",123);
-System.out.printf("%05d\n",123);
-System.out.printf("%f\n",123.45);
-System.out.printf("%7.1f\n",123.45);
-System.out.printf("%7.3f\n",123.45);
-System.out.printf("%s\n","Hi-java");
-System.out.printf("%10s\n","Hi-java");
+	System.out.printf("%d\n",123);
+	System.out.printf("%5d\n",123);
+	System.out.printf("%05d\n",123);
+	System.out.printf("%f\n",123.45);
+	System.out.printf("%7.1f\n",123.45);
+	System.out.printf("%7.3f\n",123.45);
+	System.out.printf("%s\n","Hi-java");
+	System.out.printf("%10s\n","Hi-java");
 
-int x;
-float Y;
-
-
-x= (int) 123.45;
-y= 200;
-
-System.out.printf("xÀÇ °ª = = > %d \n"x);
-System.out.printf("yÀÇ °ª = = > %f \n",y);
+	int x;
+	float Y;
 
 
-int a, b, c, d;
+	x= (int) 123.45;
+	y= 200;
 
-a = 100+100;
-b = a+100;
-c = a+b-100;
-d= a+b+c;
-
-System.out.printf("a, b, c, d ÀÇ °ª ==> %d, %d, &d, %d\n",a, b, c, d);
-
-a=b=c=d=100;
-System.out.printf("a, b, c, d ÀÇ °ª ==> %d, %d, &d, %d\n",a, b, c, d);
-
-a= 100;
-a = a + 200;
-System.out.printf("aÀÇ °ª ==> %d\n",a);
-
-int y= 0xa;
-System.out.println(y);
+	System.out.printf("xì˜ ê°’ = = > %d \n"x);
+	System.out.printf("yì˜ ê°’ = = > %f \n",y);
 
 
-int a=100, b=200;
-double result; 
+	int a, b, c, d;
 
-result = (double) a/b;
+	a = 100+100;
+	b = a+100;
+	c = a+b-100;
+	d= a+b+c;
 
-System.out.printf("%f \n", result);
+	System.out.printf("a, b, c, d ì˜ ê°’ ==> %d, %d, &d, %d\n",a, b, c, d);
 
-		
-	float a = 0.1234567890123456789012345f;
-	double b = 0.1234567890123456789012345;
-	
-	System.out.println(a);
-	System.out.println(b);
+	a=b=c=d=100;
+	System.out.printf("a, b, c, d ì˜ ê°’ ==> %d, %d, &d, %d\n",a, b, c, d);
+
+	a= 100;
+	a = a + 200;
+	System.out.printf("aì˜ ê°’ ==> %d\n",a);
+
+	int y= 0xa;
+	System.out.println(y);
 
 
+	int a=100, b=200;
+	double result; 
+
+	result = (double) a/b;
+
+	System.out.printf("%f \n", result);
+
+
+		float a = 0.1234567890123456789012345f;
+		double b = 0.1234567890123456789012345;
+
+		System.out.println(a);
+		System.out.println(b);
+
+
+
+		}
 
 	}
 
-}
 
-		
-		char a,b,c,d,e;
-		
-		a = 'A';
-		System.out.printf("%c \t",a);
-		System.out.printf("%d \n",(int)a);
-		
-		b = 'a';
-		System.out.printf("%c \t",b);
-		System.out.printf("%d \n",(int)b);
-		
-		c= (char)(b+1);
-		System.out.printf("%c \t",b);
-		System.out.printf("%c \n",c);
-		
-		d= 90;
-		System.out.printf("%c \n",d);
-		
-		e= '°¡';
-		System.out.printf("%d \t",(int)e);
-		System.out.printf("%c \n",e);
+	char a,b,c,d,e;
+
+	a = 'A';
+	System.out.printf("%c \t",a);
+	System.out.printf("%d \n",(int)a);
+
+	b = 'a';
+	System.out.printf("%c \t",b);
+	System.out.printf("%d \n",(int)b);
+
+	c= (char)(b+1);
+	System.out.printf("%c \t",b);
+	System.out.printf("%c \n",c);
+
+	d= 90;
+	System.out.printf("%c \n",d);
+
+	e= 'ê°€';
+	System.out.printf("%d \t",(int)e);
+	System.out.printf("%c \n",e);
 		
 	
 	int a, b;
@@ -104,27 +104,22 @@ System.out.printf("%f \n", result);
 	System.out.printf("%c \n",c);
 
 		
-		boolean boo1, boo2;
-		
-		boo1 = true;
-		System.out.printf("%s \n", boo1);
-		
-		boo2 = false;
-		System.out.printf("%s \n", boo2);
+	boolean boo1, boo2;
 
-String str1 = "IT CookBook ÀÔ´Ï´Ù";
-String str2 = "10";
-String str3 = "20";
+	boo1 = true;
+	System.out.printf("%s \n", boo1);
 
-str1 = "Java ÀÔ´Ï´Ù";
+	boo2 = false;
+	System.out.printf("%s \n", boo2);
 
-System.out.printf("%s \n", str1);
-System.out.printf("%s \n", str2 + str3);
-	*/
+	String str1 = "IT CookBook ìž…ë‹ˆë‹¤";
+	String str2 = "10";
+	String str3 = "20";
 
+	str1 = "Java ìž…ë‹ˆë‹¤";
 
-		
-	
+	System.out.printf("%s \n", str1);
+	System.out.printf("%s \n", str2 + str3);
 		
 	}
 
