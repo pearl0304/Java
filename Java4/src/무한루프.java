@@ -1,75 +1,75 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ¹«ÇÑ·çÇÁ {
+public class ë¬´í•œë£¨í”„ {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-/*Scanner s = new Scanner(System.in);
+	Scanner s = new Scanner(System.in);
 
-int a=0, b=0;
+	int a=0, b=0;
 
-while(true){
+	while(true){
+
+		try {
+
+		System.out.printf("ì²«ë²ˆì§¸ ìˆ˜ ì…ë ¥ : ");
+		a=s.nextInt();
+
+		System.out.printf("ë‘ë²ˆì§¸ ìˆ˜ ì…ë ¥ : ");
+		b=s.nextInt();
+
+		} catch(InputMismatchException e) {
+
+			System.out.println("ì…ë ¥ ê°’ì— ì˜¤ë¥˜ê°€ ìˆìŠµë‹ˆë‹¤");
+		} finally {
+			System.out.printf("%d + %d = %d \n",a,b,a+b);
+			System.out.println();
+			a=0; b=0;
+			if(a==0 || b==0)
+			break;
+		}
 	
-	try {
 	
-	System.out.printf("Ã¹¹øÂ° ¼ö ÀÔ·Â : ");
-	a=s.nextInt();
-	
-	System.out.printf("µÎ¹øÂ° ¼ö ÀÔ·Â : ");
-	b=s.nextInt();
-	
-	} catch(InputMismatchException e) {
+
 		
-		System.out.println("ÀÔ·Â °ª¿¡ ¿À·ù°¡ ÀÖ½À´Ï´Ù");
-	} finally {
-		System.out.printf("%d + %d = %d \n",a,b,a+b);
-		System.out.println();
-		a=0; b=0;
-		if(a==0 || b==0)
-		break;
-	}
-	
-	
 
-		
+		Scanner s = new Scanner(System.in);
+		int a,b;
+		char ch;
 
-			Scanner s = new Scanner(System.in);
-			int a,b;
-			char ch;
-			
-			while(true) {
-				System.out.printf("Ã¹¹øÂ° ¼ö ÀÔ·Â : ");
-				a=s.nextInt();
-				
-				System.out.printf("µÎ¹øÂ° ¼ö ÀÔ·Â : ");
-				b=s.nextInt();
-				
-				System.out.printf("°è»êÇÒ ¿¬»êÀÚ : ");
-				ch=(char)System.in.read(); //
-				
-			switch(ch) {
-			case '+' : 
-				System.out.printf("%d + %d = %d \n",a,b,a+b);break;
-			case '-' : 
-				System.out.printf("%d - %d = %d \n",a,b,a-b);break;		
-			case '*' : 
-				System.out.printf("%d * %d = %d \n",a,b,a*b);break;
-			case '%' : 
-				System.out.printf("%d % %d = %d \n",a,b,a%b);break;
-			default : 
-			 System.out.printf("¿¬»êÀÚ¸¦ Àß¸øÀÔ·ÂÇßÀ½ \n");
-				
-			
-			}
-		
-	}
- //´ë¹®ÀÚ´Â ¼Ò¹®ÀÚ·Î ¼Ò¹®ÀÚ´Â ´ë¹®ÀÚ·Î System.in À¸·Î 
+		while(true) {
+			System.out.printf("ì²«ë²ˆì§¸ ìˆ˜ ì…ë ¥ : ");
+			a=s.nextInt();
+
+			System.out.printf("ë‘ë²ˆì§¸ ìˆ˜ ì…ë ¥ : ");
+			b=s.nextInt();
+
+			System.out.printf("ê³„ì‚°í•  ì—°ì‚°ì : ");
+			ch=(char)System.in.read(); //
+
+		switch(ch) {
+		case '+' : 
+			System.out.printf("%d + %d = %d \n",a,b,a+b);break;
+		case '-' : 
+			System.out.printf("%d - %d = %d \n",a,b,a-b);break;		
+		case '*' : 
+			System.out.printf("%d * %d = %d \n",a,b,a*b);break;
+		case '%' : 
+			System.out.printf("%d % %d = %d \n",a,b,a%b);break;
+		default : 
+		 System.out.printf("ì—°ì‚°ìë¥¼ ì˜ëª»ì…ë ¥í–ˆìŒ \n");
+
+
+		}
+
+}
+ 		//ëŒ€ë¬¸ìëŠ” ì†Œë¬¸ìë¡œ ì†Œë¬¸ìëŠ” ëŒ€ë¬¸ìë¡œ System.in ìœ¼ë¡œ 
 		
 		int n;
 		char c;
 		
-		System.out.println("´ë¹®ÀÚ ÀÔ·Â : ");
+		System.out.println("ëŒ€ë¬¸ì ì…ë ¥ : ");
 		c= (char)System.in.read();
 
 		System.out.print((int)c);
@@ -89,11 +89,11 @@ while(true){
 		
 		do {
 			
-			System.out.printf("¸Ş´º¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä : ");
+			System.out.printf("ë©”ë‰´ë¥¼ ì„ íƒí•´ ì£¼ì„¸ìš” : ");
 			
 			if(count==0) {
-			System.out.print("\n1.Ä«ÇªÄ¡³ë   2.Ä«Æä¶ó¶¼   3. ¾Æ¸Ş¸®Ä«³ë");
-			} else {System.out.print("1.Ä«ÇªÄ¡³ë   2.Ä«Æä¶ó¶¼   3. ¾Æ¸Ş¸®Ä«³ë  4.Stop");
+			System.out.print("\n1.ì¹´í‘¸ì¹˜ë…¸   2.ì¹´í˜ë¼ë–¼   3. ì•„ë©”ë¦¬ì¹´ë…¸");
+			} else {System.out.print("1.ì¹´í‘¸ì¹˜ë…¸   2.ì¹´í˜ë¼ë–¼   3. ì•„ë©”ë¦¬ì¹´ë…¸  4.Stop");
 			}
 		
 		n=s.nextInt();
@@ -106,26 +106,26 @@ while(true){
 		
 		switch(temp) {
 		case 1 : 
-			System.out.printf("Ä«ÇªÄ¡³ë ¼±ÅÃ");
+			System.out.printf("ì¹´í‘¸ì¹˜ë…¸ ì„ íƒ");
 			count++;
 			break;
 			
 		case 2 : 
-			System.out.printf("Ä«Æä¶ó¶¼ ¼±ÅÃ");
+			System.out.printf("ì¹´í˜ë¼ë–¼ ì„ íƒ");
 			count++;
 			break;
 		case 3 : 
-			System.out.printf("¾Æ¸Ş¸®Ä«³ë ¼±ÅÃ");
+			System.out.printf("ì•„ë©”ë¦¬ì¹´ë…¸ ì„ íƒ");
 			count++;
 			break;
 			
 		case 4 : 
-			System.out.printf("ÁÖ¹®ÇÏ½Å Ä¿ÇÇ°¡ ³ª¿Ô½À´Ï´Ù");
+			System.out.printf("ì£¼ë¬¸í•˜ì‹  ì»¤í”¼ê°€ ë‚˜ì™”ìŠµë‹ˆë‹¤");
 			count++;
 			break;
 			
 			default :
-				System.out.printf("Àß¸øÁÖ¹®ÇÏ¼Ì½À´Ï´Ù");	
+				System.out.printf("ì˜ëª»ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤");	
 			}
 		
 		
@@ -143,7 +143,7 @@ while(true){
 			if(hap>=1000) break;
 		}
 		
-		System.out.printf("1~100ÀÇ ÇÕ¿¡¼­ ÃÖÃÊ·Î 1000ÀÌ ³Ñ´Â À§Ä¡´Â : %d \n",i);
+		System.out.printf("1~100ì˜ í•©ì—ì„œ ìµœì´ˆë¡œ 1000ì´ ë„˜ëŠ” ìœ„ì¹˜ëŠ” : %d \n",i);
 		
 		
 		int hap=0;
@@ -154,18 +154,16 @@ while(true){
 				continue;
 			hap = hap+i;
 		}
-			System.out.printf("1~100ÀÇ ÇÕ(3ÀÇ ¹è¼ö Á¦¿Ü): %d \n",hap);
+			System.out.printf("1~100ì˜ í•©(3ì˜ ë°°ìˆ˜ ì œì™¸): %d \n",hap);
 			
 		}
-		*/
+		
 		
 		
 		
 		int hap=0;
 		int i;
-		
-	
-		
+			
 		for(;;) {
 			for(i=1; i<=100; i++) {
 			hap = hap+i;
@@ -177,15 +175,11 @@ while(true){
 			}
 			
 		
-			System.out.printf("¾ÆÁ÷µµ ¹İº¹ %d \n",hap);
+			System.out.printf("ì•„ì§ë„ ë°˜ë³µ %d \n",hap);
 			
+			}
 		}
-		}
-	
-		
-		
-		
-		
+			
 	}
 }
 		
